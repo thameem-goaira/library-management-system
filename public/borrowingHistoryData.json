@@ -1,0 +1,12 @@
+[
+    { "userId": 101, "bookId": 201, "borrowDate": "01-01-2024", "returnDate": "15-01-2024" },
+    { "userId": 102, "bookId": 202, "borrowDate": "05-01-2024", "returnDate": "20-01-2024" },
+    { "userId": 103, "bookId": 203, "borrowDate": "01-02-2024", "returnDate": "15-02-2024" },
+    { "userId": 104, "bookId": 204, "borrowDate": "01-03-2024", "returnDate": "10-03-2024" },
+    { "userId": 105, "bookId": 205, "borrowDate": "15-03-2024", "returnDate": "01-04-2024" },
+    { "userId": 106, "bookId": 206, "borrowDate": "20-04-2024", "returnDate": "30-04-2024" },
+    { "userId": 107, "bookId": 207, "borrowDate": "25-05-2024", "returnDate": "05-06-2024" },
+    { "userId": 108, "bookId": 208, "borrowDate": "10-06-2024", "returnDate": "20-06-2024" },
+    { "userId": 109, "bookId": 209, "borrowDate": "15-07-2024", "returnDate": "25-07-2024" },
+    { "userId": 110, "bookId": 210, "borrowDate": "01-08-2024", "returnDate": "15-08-2024" }
+]

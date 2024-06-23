@@ -1,0 +1,136 @@
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.confirm-button,
+.cancel-button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.confirm-button:hover,
+.cancel-button:hover {
+    background-color: #007bb5;
+    transform: scale(1.05);
+}
+
+.confirm-button:focus,
+.cancel-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #007bb5;
+}
+
+.confirm-button:active,
+.cancel-button:active {
+    transform: scale(0.95);
+}
+
+.modal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal form label {
+    margin: 10px 0 5px;
+}
+
+.modal form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.modal form select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.borrow-button,
+.books-table button {
+    background-color: #45a049;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.borrow-button:hover,
+.books-table button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.borrow-button:focus,
+.books-table button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #45a049;
+}
+
+.borrow-button:active,
+.books-table button:active {
+    transform: scale(0.95);
+}
